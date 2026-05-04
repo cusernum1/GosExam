@@ -123,7 +123,7 @@ $$
 Если исход случайно выбирается из некоторой области `G`, а событию `A` соответствует подобласть `g`, то:
 
 $$
-P(A)=\frac{\operatorname{mes} g}{\operatorname{mes} G}.
+P(A)=\frac{\mathrm{mes} g}{\mathrm{mes} G}.
 $$
 
 Здесь `mes` означает меру: длину, площадь или объем.
@@ -516,13 +516,13 @@ $$
 Определение:
 
 $$
-\operatorname{cov}(X,Y)=E[(X-E(X))(Y-E(Y))].
+\mathrm{cov}(X,Y)=E[(X-E(X))(Y-E(Y))].
 $$
 
 Удобная формула:
 
 $$
-\operatorname{cov}(X,Y)=E(XY)-E(X)E(Y).
+\mathrm{cov}(X,Y)=E(XY)-E(X)E(Y).
 $$
 
 Если ковариация положительна, то величины в среднем изменяются в одном направлении.
@@ -536,7 +536,7 @@ $$
 Коэффициент корреляции:
 
 $$
-r_{XY}=\frac{\operatorname{cov}(X,Y)}{\sigma_X\sigma_Y}.
+r_{XY}=\frac{\mathrm{cov}(X,Y)}{\sigma_X\sigma_Y}.
 $$
 
 Так как:
@@ -643,14 +643,14 @@ $$
 8. Найти ковариацию:
 
 $$
-\operatorname{cov}(X,Y)=E(XY)-E(X)E(Y).
+\mathrm{cov}(X,Y)=E(XY)-E(X)E(Y).
 $$
 
 9. Найти коэффициент корреляции:
 
 $$
 r_{XY}=
-\frac{\operatorname{cov}(X,Y)}{\sqrt{D(X)}\sqrt{D(Y)}}.
+\frac{\mathrm{cov}(X,Y)}{\sqrt{D(X)}\sqrt{D(Y)}}.
 $$
 
 ---
@@ -953,13 +953,13 @@ $$
 Формула:
 
 $$
-\operatorname{cov}(X,Y)=E(XY)-E(X)E(Y).
+\mathrm{cov}(X,Y)=E(XY)-E(X)E(Y).
 $$
 
 Подставляем:
 
 $$
-\operatorname{cov}(X,Y)=-0.52-4.44\cdot0=-0.52.
+\mathrm{cov}(X,Y)=-0.52-4.44\cdot0=-0.52.
 $$
 
 ### 7.11. Коэффициент корреляции
@@ -968,7 +968,7 @@ $$
 
 $$
 r_{XY}=
-\frac{\operatorname{cov}(X,Y)}{\sqrt{D(X)}\sqrt{D(Y)}}.
+\frac{\mathrm{cov}(X,Y)}{\sqrt{D(X)}\sqrt{D(Y)}}.
 $$
 
 Подставляем:
